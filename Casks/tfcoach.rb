@@ -3,7 +3,7 @@ cask "tfcoach" do
   name "tfcoach"
   desc "Tiny Terraform coach"
   homepage "https://marcel2603.github.io/tfcoach"
-  version "0.12.0"
+  version "0.13.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "tfcoach" do
   on_macos do
     on_intel do
       url "https://github.com/Marcel2603/tfcoach/releases/download/v#{version}/tfcoach_darwin_amd64.tar.gz"
-      sha256 "0baf9c5513ad3699e6e396bc7aa5fa6c641f5e903f5fe01f081c371ba2f1a17f"
+      sha256 "3b789a27d5234fdbec76950fe0f6d6131de100a4bc9e281bc9e5a1116c6ceeda"
     end
     on_arm do
       url "https://github.com/Marcel2603/tfcoach/releases/download/v#{version}/tfcoach_darwin_arm64.tar.gz"
-      sha256 "eead6f5d597358b6897035f0088ca891fd5c2ed7dab449fb6bc8885729c74fe5"
+      sha256 "0b92cdd55382c344d027171c4e329d22af4b3cc44b3775102e80dc1ce46bfd03"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/Marcel2603/tfcoach/releases/download/v#{version}/tfcoach_linux_amd64.tar.gz"
-      sha256 "11f03e18fa09a5013da4c62e7fd40f9ca5632d81db8a1e5f48c8ca1ee1edbf63"
+      sha256 "e8a20a96a8b4209a5abcfdfa0b257b6a4377f5a079fd61e52a2c9e014f88affd"
     end
     on_arm do
       url "https://github.com/Marcel2603/tfcoach/releases/download/v#{version}/tfcoach_linux_arm64.tar.gz"
-      sha256 "e35d3fd493dd19986f2d51875dcb6c6cafd8d516135191cac1862768b588bf88"
+      sha256 "a3b0074d75d38faa692eaa20172010ce0e634cf492db5c850b738c8829d9be41"
     end
   end
 
