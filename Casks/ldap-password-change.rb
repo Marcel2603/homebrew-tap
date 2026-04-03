@@ -5,22 +5,22 @@ cask "ldap-password-change" do
   on_macos do
     on_intel do
       url "https://github.com/Marcel2603/ldap-password-change/releases/download/v#{version}/ldap-password-change_darwin_amd64.tar.gz"
-      sha256 "a94ad56eafa88780c21ceb3626db3081dd1fc24a54c7988fe0b5de2368cbf040"
+      sha256 "13db5c0cfa19376ead52c87678232dda28e8e742ff2726fd99921bdb07034386"
     end
     on_arm do
       url "https://github.com/Marcel2603/ldap-password-change/releases/download/v#{version}/ldap-password-change_darwin_arm64.tar.gz"
-      sha256 "52e08567283dc8151bbec5190e8bf41fdfc26abef1c6c93420c7747fa7697d1b"
+      sha256 "25f0c05f6b84375c4cdeddf98b4e6bf18dd363ba397fbb33198c0c3315d1e26c"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/Marcel2603/ldap-password-change/releases/download/v#{version}/ldap-password-change_linux_amd64.tar.gz"
-      sha256 "f10639b6d4d0c54b789a067eccf1e007dc57f2519092f7d9957c3aecdefaa522"
+      sha256 "ae119aa44f9f41cab4c805d7da03b0cbbc7d815909183a51debfd79a18e47fab"
     end
     on_arm do
       url "https://github.com/Marcel2603/ldap-password-change/releases/download/v#{version}/ldap-password-change_linux_arm64.tar.gz"
-      sha256 "7b9d5a6664637c2ecb7200408d203eaa3f8567199c12c1254a2aa4cd832bfb59"
+      sha256 "4f9b271072b8e772f201c003ac4f464e4e0f51a0fa8319750d4af474da25b416"
     end
   end
 
