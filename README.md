@@ -16,23 +16,24 @@ After adding the tap, you can install the desired tool:
 brew install <tool-name>
 ```
 
-# Available Tools
+## Available Tools
 
-| Tool    | Description                                   |
-|---------|-----------------------------------------------|
-| TFCoach | simple and fast Linter to Check TerraformCode |
+| Tool               | Description                                   |
+|--------------------|-----------------------------------------------|
+| TFCoach            | simple and fast Linter to Check TerraformCode |
+| LdapPasswordChange | self-hosted web service that allows users to change their LDAP password |
 
-# Updates
+## Updates
 
 The tools in this tap are automatically updated via GitHub Actions whenever a new release is published in the source
 repository.To ensure you have the latest versions, run:
 
 ```shell
-hbrew update
+brew update
 brew upgrade
 ```
 
-# Support
+## Support
 
 If you encounter any issues, please create an issue in this repository.
 
