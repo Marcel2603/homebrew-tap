@@ -4,22 +4,22 @@ cask "spikeball-league" do
 
   on_macos do
     on_intel do
-      sha256 "18d8c8d3f837241410bc50407de25361675c82262d9571376e38ac4959a2407f"
+      sha256 "bc6f05f3a424c0e7a40ae54212b49f04a2a6d98e2a46d638da267b70227a97e2"
       url "https://github.com/Marcel2603/spikeball-league/releases/download/v#{version}/spikeball-league_darwin_amd64.tar.gz"
     end
     on_arm do
-      sha256 "475fad23572a05a29733ecaad744f9cef648e3e6e9ad16cf6b5e80fa7af77e62"
+      sha256 "45bcd0a83e2d30d73873ede873b7ae4aefa1e4e8bcbdeca68d3a07896ab0fd94"
       url "https://github.com/Marcel2603/spikeball-league/releases/download/v#{version}/spikeball-league_darwin_arm64.tar.gz"
     end
   end
 
   on_linux do
     on_intel do
-      sha256 "25003eab509cd6aa75b53ef20aaf3d0c81cc6af6ed115f26b88efce0415bf9ce"
+      sha256 "17366f05d5379611107a8387b43a6bbd3c111c6a82357da173af488044550d94"
       url "https://github.com/Marcel2603/spikeball-league/releases/download/v#{version}/spikeball-league_linux_amd64.tar.gz"
     end
     on_arm do
-      sha256 "97afae968d533a4767ab29e58bad042ade1dd9f1625862c5dfc99d22ec01348f"
+      sha256 "65f29208fc6e3891a8bb416f3675729365d71e1a73a0e32ad2040e1511090fe8"
       url "https://github.com/Marcel2603/spikeball-league/releases/download/v#{version}/spikeball-league_linux_arm64.tar.gz"
     end
   end
